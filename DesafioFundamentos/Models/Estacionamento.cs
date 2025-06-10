@@ -62,6 +62,7 @@ namespace DesafioFundamentos.Models
                     Console.WriteLine("Quantidade de horas inválida. Por favor, tente novamente.");
                     return;
                 }
+                
                 valorTotal = precoInicial + precoPorHora * horas;
                 veiculos.Remove(placa);
                 Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");

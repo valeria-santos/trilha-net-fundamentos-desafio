@@ -4,13 +4,9 @@ namespace DesafioFundamentos.Models
     {
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
-
         private string placa = "";
-
         private string placaVeiculoRemovido = "";
-
         private int horas = 0;
-
         private decimal valorTotal = 0;
         private List<string> veiculos = new List<string>();
 
